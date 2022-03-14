@@ -1,0 +1,30 @@
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "skipDefaultLibCheck": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noFallthroughCasesInSwitch": true,
+    },
+
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "tmp"
+    ],
+    "types": [
+        "node"
+    ]
+}
