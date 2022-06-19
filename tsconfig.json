@@ -3,6 +3,7 @@
     "compileOnSave": false,
     "compilerOptions": {
         "rootDir": ".",
+        "module": "ESNext",
         "sourceMap": true,
         "declaration": false,
         "moduleResolution": "node",
